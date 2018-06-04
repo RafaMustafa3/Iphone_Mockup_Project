@@ -1,0 +1,77 @@
+.main_container {
+  width:80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.container-1 {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  width: 30%;
+}
+.iphonegallery {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.galleryimage {
+  width: 20%;
+  margin: 0;
+}
+.container-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: #D3D4D5;
+}
+h3 {
+  color: #D3D4D5;
+}
+.footer1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  background: #202528;
+}
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  background: #202528;
+}
+.leftside,.rightside {
+  width: 50%;
+  padding: 20px;
+  color: white;
+  justify-content: space-around;
+
+}
+.rightside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+.greenback
+ {
+  background-color: #64BD03
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 300px;
+
+}
